@@ -1,0 +1,20 @@
+/* 
+    Assignment 4b
+    Chun-Hao Huang
+    assignment4b.css
+
+*/
+
+
+#electionCalculation {
+    border:5px double blue;
+    
+}
+body{
+    background-color: aqua;
+}
+output {
+    column-width: 100px;
+    background-color: aliceblue;
+    padding: 2px;
+}

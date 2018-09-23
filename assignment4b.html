@@ -1,0 +1,95 @@
+<!doctype html>
+<!--
+    Assignment 4B
+    Chun-Hao Huang
+    assignment4b.html
+-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 4B</title>
+    <link rel="stylesheet" href="css/assignment4b.css">
+</head>
+
+<body>
+
+
+    <h1>Presidential Election Popular Vote, United States: 41</h1>
+
+    <form id="electionCalculation">
+        <fieldset>
+            <legend>Candidates</legend>
+            <p>
+                <label>Candidate 1: </label>
+                <output class="candidateName1" type="text" size="50"></output> Party: 
+                <output id ="party1"> </output>
+
+            </p>
+            <p>
+                <label>Candidate 2: </label>
+                <output class="candidateName2" type="text" size="50"></output> Party: 
+                <output id ="party2"></output>
+
+            </p>
+            <p>
+                <label>Candidate 3: </label>
+                <output class="candidateName3" type="text" size="50"></output> Party: 
+                <output id ="party3"></output>
+
+            </p>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Votes</legend>
+            <p>
+                <label for="voteForC1">Votes for Candidate 1:</label>
+                <output class="" id="voteForC1"></output>
+
+            </p>
+
+            <p>
+                <label for="voteForC2">Votes for Candidate 2: </label>
+                <output class="" id="voteForC2"></output>
+
+            </p>
+            <p>
+                <label for="voteForC3">Votes for Candidate 3: </label>
+                <output class="" id="voteForC3"></output>
+
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Current Results</legend>
+            <p>
+                <label for="date">As of</label>
+                <output class="date" id="date"></output>
+            </p>
+            <p>
+                <label for="voteTotal">Total Votes counted</label>
+                <output class="number" id="voteTotal"></output>
+            </p>
+            <div id="final">
+               <p>
+                   <output class="candidateName1" type="text"></output> Percentage <output id="votePercentage1" type="number"></output>
+               </p>
+               <p>
+                   <output class="candidateName2" type="text"></output> Percentage <output id="votePercentage2" type="number"></output>
+               </p>       
+                <p>
+                   <output class="candidateName3" type="text"></output> Percentage <output id="votePercentage3" type="number"></output>
+               </p>
+                
+                
+            </div>
+        </fieldset>
+
+    </form>
+
+    <script src="js/voting41.js"></script>
+    <script src="js/assignment4b.js"></script>
+</body>
+
+</html>
